@@ -1,5 +1,7 @@
 # Pakala
 
+
+[![pyunit](https://github.com/contractshark/pakala/actions/workflows/pyunit.yml/badge.svg)](https://github.com/contractshark/pakala/actions/workflows/pyunit.yml)
 [![PyPI](https://badge.fury.io/py/pakala.svg)](https://pypi.python.org/pypi/pakala)
 [![Build States](https://circleci.com/gh/palkeo/pakala.svg?style=svg)](https://circleci.com/gh/palkeo/pakala)
 
