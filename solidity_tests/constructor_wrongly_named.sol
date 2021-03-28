@@ -1,4 +1,4 @@
-contract Crowdfunding {
+ contract Crowdfunding {
 
   mapping(address => uint) public balances;
   address public owner;
