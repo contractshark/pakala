@@ -1,0 +1,33 @@
+name: 'EVM Unit Testing'
+on:
+  push:
+
+env:
+  CI: true
+  FORCE_COLOR: 2
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt; 
+          id: install
+          run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Run Unit Testing
+        run: |
+          echo '::set-output name=SELECTED_COLOR::green'
+          echo "::group:: Unit Testing Start"
+          python -m unittest -v
+          echo "::endgroup::"
+          id: unittest
+          run: echo "::set-output name=dir::$(yarn cache dir)"

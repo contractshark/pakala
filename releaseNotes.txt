@@ -1,0 +1,154 @@
+
+
+  f586614 || fix(requirements): claripy || Author:sam
+  e1c6c49 || feat(python): poetry config || Author:sam
+  a65e5b6 || fix(requirements): eth-utils || Author:sam
+  951f0e9 || feat(nodejs): prettier lint & utils || Author:sam
+  62860b2 || refactor(black): reformat || Author:sam
+  42cedc6 || refactor(pythonic): additional lint fixes || Author:sam
+  25ce4be || refactor(pythonic): fix lint issues || Author:sam
+  0490db1 || test(solidity): add additional testfiles || Author:sam
+
+
+  57fe23e || ci(actions): init || Author:sam bacha
+  1aea78e || fix(addr): minor adjustment || Author:sam bacha
+
+
+  fce6103 || Reformat setup.py with black. || Author:palkeo
+  381d1f9 || Fix error message, because infura doesn't work anymore. || Author:palkeo
+
+
+  c84ef38 || Bump version. || Author:palkeo
+  a44423b || Add istanbul opcodes. || Author:palkeo
+
+
+  eb48047 || Freeze requirements. Use an older claripy. || Author:palkeo
+  c733808 || Bump version || Author:palkeo
+  88f77e5 || Read requirements from requirements.txt || Author:palkeo
+
+
+  d07d270 || Fix variable renamed in the new py-evm library. || Author:palkeo
+
+
+  ba79d10 || Update the web3 exception name. || Author:palkeo
+  1ad9661 || Bump version. || Author:palkeo
+
+
+  fb77800 || Update readme. || Author:palkeo
+  cb14e8f || Update readme. || Author:palkeo
+  b458908 || Formatting. || Author:palkeo
+
+
+  7b79510 || Bump version. || Author:palkeo
+  6357942 || Reformat code. || Author:palkeo
+  579de85 || First concretize "deep" hashes, then shallow ones. || Author:palkeo
+  065e474 || Revert "Much better handling of the default caller." || Author:palkeo
+
+
+  d6d0a32 || Logging + constraint write key properly || Author:palkeo
+  7a1af26 || Don't try to bool() a symbol || Author:palkeo
+  75f4e89 || Much better handling of the default caller. || Author:palkeo
+  6504fae || Reformat code with black. || Author:palkeo
+
+
+  e75d9a6 || Fix a bug for storage and cryptographic hashes. See comment. || Author:palkeo
+  c437f54 || Bump version. || Author:palkeo
+
+
+  adad5df || Fix for the new CodeStream API. || Author:palkeo
+  8cb2bd4 || Bump version. || Author:palkeo
+
+
+  bab7bb3 || Bump version. || Author:palkeo
+  87c877e || s/calldata/data/ || Author:palkeo
+  676f6fc || Fix calldatasize test. || Author:palkeo
+  6462797 || Fix unit test. || Author:palkeo
+
+
+  c01d1cd || Unbounded memory. || Author:palkeo
+  b630f47 || Revert "Let's not add a constraint on the size, on CALLDATACOPY" || Author:palkeo
+  4afbe91 || Add debug log. || Author:palkeo
+  499c84d || Let's not add a constraint on the size, on CALLDATACOPY || Author:palkeo
+  0b9e694 || Don't constraint calldata_size. || Author:palkeo
+
+
+  0ec98e6 || Fuzzing: prioritize the less solutions we get. || Author:palkeo
+
+
+  afddd22 || Miminum 2 minutes for dynamic timeout. || Author:palkeo
+  8ccf8ef || Bump version. || Author:palkeo
+  8542608 || Allow KeyboardInterrupt. || Author:palkeo
+  83040c0 || Fix typo. || Author:palkeo
+
+
+  fce99ef || Cli can be ran directly. || Author:palkeo
+  f5f0f88 || Update usage command. || Author:palkeo
+  c4de1b3 || Improve logging during the symbolic execution. || Author:palkeo
+  97482be || Bump minor version. || Author:palkeo
+  9687356 || Move the CLI to its own module. Add it to setup.py. || Author:palkeo
+  7b949b9 || Reformat code with black. || Author:palkeo
+  14dbb33 || Add a warning when the fuzzer activates. || Author:palkeo
+  00384bf || Show an example transaction that works. Closes #5. || Author:palkeo
+
+
+  c15951b || Be optimistic. It's faster. || Author:palkeo
+  be53a68 || Reformat code with black. || Author:palkeo
+  9ebe3c3 || Simplify slightly claripy_sha3 || Author:palkeo
+  93434f8 || Add arithmetic shifts. || Author:palkeo
+  68dfece || Add debug log. || Author:palkeo
+
+
+  c9f5fff || Faster and more accurate modeling of who the calls are sent to. || Author:palkeo
+
+
+  f3204cd || Update error message. || Author:palkeo
+  3c1a072 || Improve logging of the model. || Author:palkeo
+
+
+  f23b624 || Fix for new version of py-evm. || Author:palkeo
+  da47bb1 || Fix a small bug with the hash symbols. || Author:palkeo
+  d310332 || Bump version. || Author:palkeo
+  c4990a9 || Make test_analyzer a bit faster. || Author:palkeo
+  67c73fa || Reduce false positive rate: calls returning symbolic data need to be done to an address that we control. || Author:palkeo
+  2aa3862 || Bump version. || Author:palkeo
+
+
+  fae97cb || Remove useless require. || Author:palkeo
+  eb7af9b || Add a test for delegatecall. || Author:palkeo
+  9a94f64 || Update get_model to the new solver. || Author:palkeo
+  9062c2e || Bump version. || Author:palkeo
+  82d5ec0 || Add fuzzing for the exponent. || Author:palkeo
+  51657b7 || Add finding of delegatecall bugs. To be improved, though. || Author:palkeo
+  4ab51dc || Add a small comment + reformating || Author:palkeo
+  4361252 || Minor fixes to fuzzing || Author:palkeo
+  279174b || Add support for lists/unbounded strings using fuzzing. Add a test. || Author:palkeo
+  0ab9e06 || Add a unittest for the delegatecall detection. || Author:palkeo
+  014d77b || Refactor SHA3 support, so we can recreate the solver when replacing symbols. || Author:palkeo
+
+
+  f88845f || Support for RETURNDATA and DELEGATECALL, and broaden CALL support. || Author:palkeo
+  bfb1777 || MultipleSolutionsError instead of ValueError. || Author:palkeo
+  a200651 || Improve fuzzing values. || Author:palkeo
+  9a44896 || Fix tests with the BoolV removal. || Author:palkeo
+  91401d3 || Print opcodes in hexadecimal. || Author:palkeo
+  7fb56ba || Get rid of the Bool objects. Only keep BVV in the stack. || Author:palkeo
+  75dd0d1 || Fix a small bug in get_coverage. Add logging. || Author:palkeo
+  643071c || Add a traceback on interpreter error. || Author:palkeo
+  3a0127d || Better terminology. || Author:palkeo
+  0ce0f16 || Change branch selection strategy, to simple BFS. || Author:palkeo
+
+
+  2c23b4f || Fix a bug in symbolic memory when ending is the same. || Author:palkeo
+
+
+  b01dc87 || sm: correctly fuse read and writes. || Author:palkeo
+
+
+  fa35846 || Tell us that we do paths of length 1 as well. || Author:palkeo
+
+
+  98d60bf || claripy_sha3: fix a bug when two hashes from input with different length must be equal. || Author:palkeo
+
+
+  f833e6e || Remove read_constraints. Use extra_constraints instead. || Author:palkeo
+  e68cd5f || Update readme with a better example to fix #3 || Author:palkeo
